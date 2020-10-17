@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#define p printf(
+#define f )
+#define m printf("\n")
+
 int my_mergesort(int* a,int len){
     int step=1;
     int *m1=(int *)malloc(len*sizeof(int));
@@ -52,8 +56,8 @@ int main(){
     
     int i;
     for (i=0;i<len;i++) {
-        printf("%d\t",a[i]);
+        p"%d\t",a[i] f;
     }
-    printf("\n");
+    m;
     return 0;
 }
