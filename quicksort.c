@@ -36,7 +36,7 @@ int quicksort_r(int* a,int start,int end){
 }
 
 int main(){
-    int a[10]={2,1,4,7,5,8,9,20,0,3};
+    int a[10]={4,2,6,4,6,7,23,45,12,5};
     int len=10;
     quicksort(a,len);
     int i;
